@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main_bord{
+    display: flex;
+    width: 95%;
+    padding:10px;
+}
+main{
+    margin-top: 6%;
+}
+main h1{
+    text-align:center;
+    color:rgb(147, 141, 194);
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+.drop_down{
+    position: absolute;
+    top: 60%;
+    left: 157.5%;
+       
+}
+.contact_bord{
+    margin-left: 1%;
+    width: 100%;
+    margin-right: 1%;
+}
+.message_bord .form_contact{
+    width: 30em;
+}
+.message_bord .form_message{
+    width: 30em;
+}
+.form_contact{
+    width: 60%;
+    margin:auto;
+    margin-left: 8%;
+    padding:0 10px;
+    overflow:hidden;
+}
+.text_contact{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border:0;
+    background: #111;
+    padding:20px 40px;
+    outline:none;
+    color:#ddd;
+    transition:0.5s;
+}
+.text_contact:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.text_contact{
+    resize: none;
+    height: 200px;
+    width: 100%;
+}
+.submit_btn{
+    float:right;
+    border: 0;
+    background: #34495e;
+    color:#fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.submit_btn:hover{
+    background: #2980b9;
+}
+.footer div h6{
+    width: 110%;
+    padding-top: 10%;
+}
+
+@media (max-width: 450px){
+    .main_bord{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    header{
+        height: 20vw;
+    }
+    #text_area{
+        width: 87vw;
+        margin-left: 5vw;
+    }
+    .submit_btn{
+        margin-right: 25vw;
+        margin-top: 5vw;
+    }
+    .form_contact{
+        margin-left: 1.9vw;
+        margin-top: 10vw;
+        width: 86.7vw;
+    }
+    .footer{
+        margin-top: 1vw;
+    }
+    footer #social_media{
+        padding-top: 3vw;
+        width: 35vw;
+        padding-left: 38vw;
+    }
+    ul{
+        height: 70vw;
+        padding-left: 11vw;
+    }
+}
+@media (min-width:450px) and (max-width: 1300px){
+    header{
+        height: 9.01vw;
+    }
+    main{
+        margin-top: 12vw;
+    }
+    #text_area{
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .main_bord{
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .submit_btn{
+        margin-right: -15vw;
+        margin-top: 5vw;
+    }
+    .footer #social_media {
+        width: 40%;
+        padding-left: 65vw;
+        padding-top: 2vw;
+    }
+}
+@media (max-width: 800px) and (min-width: 750px){
+    header{
+        height: 10.5vw;
+    }
+}
+@media (max-width: 400px){
+    header{
+        height: 22.1vw;
+    }
+    main{
+        overflow-x: hidden;
+    }
+    .footer #social_media {
+        width: 40%;
+        padding-left: 30vw;
+        padding-top: 2vw;
+    }
+    .submit_btn{
+        margin-right: 45vw;
+        margin-top: 5vw;
+    }
+}

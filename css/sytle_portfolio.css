@@ -1,0 +1,248 @@
+header{
+    position: absolute;
+    top: 0;
+    height: 12.6%;
+    position: fixed;
+}
+body{
+    margin-top: 10%;
+    background-image: url("/images/background/wave-bg.svg");
+    background-position-y: 5.03em;
+}
+.main{
+    width: 80%;
+    height: 0;
+    overflow: hidden;
+}
+.inner{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navigation{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 80px;
+    height: 20px;
+    border: 2px solid black;
+    margin: 6px;
+    cursor: pointer;
+}
+input[name="pr"]{
+    position: relative;
+    visibility:hidden;
+}
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 1000px;
+    transition: 0.6s;
+    margin: 0 1% 0 1%;
+}
+.inner_slide p{
+    width: 50%;
+    padding-top: 20%;
+    padding-left: 5%;
+}
+.inner_slide img{
+    margin-top: 5vw;
+    width: 50%;
+    height: 30vw;
+}
+.slide .inner_slide{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#pr1:checked ~ .s1{
+    margin-left: 0;
+}
+#pr2:checked ~ .s1{
+    margin-left: -21%;
+}
+#pr3:checked ~ .s1{
+    margin-left: -42%;
+}
+#pr4:checked ~ .s1{
+    margin-left: -63%;
+}
+.drop_down{
+    position: absolute;
+    top: 65%;
+    left: 151.5%;     
+} 
+.footer{
+    position: absolute;
+    top: 100%;
+    height: 80px;
+    width: 100%;
+}
+#footer_text{
+    margin-left: -12%;
+    margin-top: 2%;
+}
+@media (max-width: 850px) and (min-width: 600px){
+    .inner_slide{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vw;
+    }
+    .inner_slide p{
+        width: 30%;
+        margin-top: -40%;
+        margin-left: 12vw;
+    }
+    .inner_slide img{
+        margin-left: -14vw;
+        margin-top: 15vw;
+        width: 30vw;
+        height: 25vw;
+    }
+    #pr1:checked ~ .s1{
+        margin-left: 0vw;
+    }
+    #pr2:checked ~ .s1{
+        margin-left: -120vw;
+    }
+    #pr3:checked ~ .s1{
+        margin-left: -310vw;
+    }
+    #pr4:checked ~ .s1{
+        margin-left: -470vw;
+    }
+}
+@media (max-width: 600px){
+    .slides{
+        margin-top: -30vw;
+    } 
+    
+}
+@media (max-width: 600px){
+    header{
+        position: absolute;
+        top: 0;
+        height: 23vw;
+        position: fixed;
+    }
+    body{
+        margin-top: 50vw;
+    }
+    .slides{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100vw;
+        height: 20vw;
+    } 
+    .inner_slide{
+        display: flex;
+        flex-direction: column;
+        margin-top: -30vw;
+    }
+    .inner_slide p{
+        width: 60vw;
+        padding-top: 3%;
+        margin-left: -1vw;
+    }
+    .inner_slide img{
+        padding-left: 10vw;
+        margin-top: 100vw;
+        width: 60vw;
+    }
+    
+    .bar{
+        width: 10vw;
+        height: 3vw;
+        margin-top: -5vw;
+    }
+    #pr1:checked ~ .s1{
+        margin-top: 0;
+    }
+    #pr2:checked ~ .s1{
+        margin-top: -150vw;
+    }
+    #pr3:checked ~ .s1{
+        margin-top: -295vw;
+    }
+    #pr4:checked ~ .s1{
+        margin-top: -600vw;
+    }
+    .footer{
+        margin-top: -17vw;
+    }
+}
+@media (max-width: 1000px) and (min-width: 850px){
+     .inner_slide{
+        margin-left: -5vw;
+        margin-top: 5vw;
+    } 
+    .inner_slide img{
+        width: 30vw;
+        height: 20vw;
+        margin-top: 150w;
+        margin-left: 15vw;
+    }
+    .inner_slide p{
+        width: 40vw;
+        padding-top: 10vw;
+        margin-left: -1vw;
+    }
+    .bar{
+        margin-top: -4vw;
+    }
+    ul{
+        padding-left: 10vw;
+    }
+    #pr1:checked ~ .s1{
+        margin-left: -15vw;
+    }
+    #pr2:checked ~ .s1{
+        margin-left: -135vw;
+    }
+    #pr3:checked ~ .s1{
+        margin-left: -255vw;
+    }
+    #pr4:checked ~ .s1{
+        margin-left: -370vw;
+    }
+   
+
+}
+@media (max-width: 1200px) and (min-width: 1000px){
+    .inner_slide{
+        display: flex;
+        flex-direction: column;
+    }
+    .inner_slide p{
+        width: 50%;
+        padding-top: 1vw;
+        margin-left: -1vw;
+    }
+    .inner_slide img{
+        padding-left: 8vw;
+        margin-top: 5vw;
+    }
+    #pr1:checked ~ .s1{
+        margin-left: 0;
+    }
+    #pr2:checked ~ .s1{
+        margin-left: -95vw;
+    }
+    #pr3:checked ~ .s1{
+        margin-left: -195vw;
+    }
+    #pr4:checked ~ .s1{
+        margin-left: -291vw;
+    }
+
+}

@@ -1,0 +1,316 @@
+*{
+    margin:0;
+    padding:0;
+}
+.download_button{
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ff553b;
+    border-radius: 5%;
+    top: 0;
+    left: 75%;
+}
+.main{
+    margin-top: 10%;
+}
+
+h1{
+    text-align:center;
+    padding-bottom: 3%;
+}
+article{
+    margin: 5% 10% 2% 10%;
+    justify-content: center;
+}
+article h3{
+    padding-bottom: 1.5%;
+}
+article p{
+    padding-bottom: 2%;
+}
+p{
+    width:60%;
+}
+.skills{
+    width:50%;
+    margin: 5% 15% 0 15%;
+
+}
+article h2{
+    text-align: left;
+}
+.line{
+    height:20%;
+    min-width: 100%;
+    margin: 2% auto 5% 5%;
+    line-height: 20%;
+    font-size: 0.9rem;
+    color:rgb(61, 60, 60);
+    padding: 1.5% 0 0 14%;
+    position: relative;
+}
+.line:before{
+    content:"";
+    width:100%;
+    position:absolute;
+    left:11vh;
+    height:3vh;
+    top:0;
+    z-index:-2;
+    background:dimgrey;
+
+}
+.line:after{
+    content:'';
+    background: lightsalmon;
+    height: 3vh;
+    transition: 0.8s;
+    display:block;
+    width:100%;
+    animation: animate 1 4s;
+    position:absolute;
+    top:0;
+    left:11vh;
+    z-index:-1;
+}
+.l1:after{
+    max-width: 70%;
+}
+.l2:after{
+    max-width: 50%;
+}
+.l3:after{
+    max-width: 70%;
+}
+.l4:after{
+    max-width: 85%;
+}
+.l5:after{
+    max-width: 80%;
+}
+@keyframes animate2{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+
+.M_experiance h2{
+    padding: 5% 0 0 42%; 
+}
+.experiance{
+    padding-left: 5%;
+}
+.experiance div{
+    width: 70em;
+    height: 20em;
+    padding-left: 5px;
+}
+.experiance div div{
+    box-shadow: 10px 10px rgb(239, 238, 241);
+    margin-right: 15%;
+    align-items: center;
+    border-radius: 10%;
+    padding-right: 10px;
+
+}
+.experiance div div p{
+    width: 20em;
+    padding: 1.5em 0 0 1.5em;
+}
+
+
+.experiance div div section{
+    background-color: rgb(179, 200, 219);
+    width: 97.5%;
+    height: 15%;
+    border-radius: 40% 40% 0 0;
+    padding: 10% 0 0 5%;
+
+}
+
+.experiance .row_2{
+    padding-left: 40px;
+}
+.experiance .row_1, .row_2{
+    display: flex;
+    padding:40px;
+}
+
+.experiance .row_1 .web_exp{
+    justify-content: center;
+
+}
+.drop_down{
+    position: absolute;
+    top: 60%;
+    left: 157.5%;
+       
+}
+.footer footer{
+    padding-top: 1%;
+}
+@media (max-width: 600px){
+    /* article{
+        display: flex;
+        flex-direction: column;
+    } */
+    header{
+        height: 19.5vw;
+    }
+    .article_1{
+        width: 50%;
+        margin-left: -8.7%;
+    }
+   .article_1 h1{
+        position: absolute;
+        left: 35%;
+    }
+    .article_1 h3{
+        padding-top: 10%;
+    }
+    .skills{
+        width: 40vw;
+        margin-left: -15vw;
+    }
+    .skills h1{
+        padding-left: 50%;
+    }
+    .line{
+        padding-bottom: 5%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        margin-left: -22%;
+    }
+    .row_1 .web_exp{
+        margin-bottom: 10vw;
+    }
+    .row p{
+        width: 1vw;
+    }
+    .web_exp2{
+        width: 10vw;
+        margin-top: 10vw;
+    }
+    
+    .experiance div div section{
+        width: 79vw;
+        height: 11vw;
+        margin-left: 5vw;
+    }
+    .M_experiance h2{
+        padding-left: 0;
+    }
+    
+    .row_1{
+        margin-bottom: 70vw;
+    }
+    .footer{
+        height: 30vw;
+        margin-top: 15vw;
+    }
+    #footer_text{
+        position: absolute;
+        padding-top: 10vw;
+        width: 80vw;
+    }
+    ul{
+        height: 80vw;
+        padding-left: 13vw;
+    }
+    .experiance div div{
+        width: 85vw;
+    }
+    .download_button{
+        position: absolute;
+        margin-top: 2450px;
+        left: 250px;
+    }
+
+}
+@media (max-width: 1000px) and (min-width: 850px){
+    header{
+        height: 8.8vw;
+    }
+    .article_1 h1{
+        padding-right: 40vw;
+    }
+    .article_1 p{
+        width: 40vw;
+    }
+    .skills{
+        margin-left: 7vw;
+    }
+    .M_experiance{
+        width: 20vw;
+        margin-left: 2vw;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .experiance div div section{
+        width: 50vw;
+        height: 5vw;
+    }
+    .web_exp section h4{
+        margin-top: -2vw;
+    }
+    .experiance div div{
+        width: 51.5vw;
+    }
+    .row_1 .web_exp{
+        margin-bottom: 80vw;
+    }
+    .footer{
+        margin-top: 30vw;
+    }
+    .download_button{
+        position: absolute;
+        margin-top: 2208px;
+    }
+
+}
+@media (min-width: 600px) and (max-width: 850px){
+    .M_experiance{
+        width: 20vw;
+        margin-left: 2vw;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .experiance div div section{
+        width: 50vw;
+        height: 5vw;
+    }
+    .web_exp section h4{
+        margin-top: -2vw;
+    }
+    .experiance div div{
+        width: 51.5vw;
+    }
+    .row_1 .web_exp{
+        margin-bottom: 110vw;
+    }
+    .download_button{
+        position: absolute;
+        margin-top: 2208px;
+    }
+    .footer{
+        margin-top: 35vw;
+    }
+
+}
+

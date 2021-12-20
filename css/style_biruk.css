@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+}
+main{
+    display:flex;
+    overflow: auto;
+    margin-top: 1%;
+}
+
+header{
+    height: 13%;
+}
+article{
+    width:70%;
+    margin:5% 5% 0 10%  ;
+}
+aside{
+    margin: 9% 3% 0 0;
+    width: 50%;
+}
+table{
+    box-shadow: 10px 10px rgb(193, 194, 209) ;
+    border-radius: 10%;
+}
+table th{
+    background-color: rgb(193, 194, 209);
+    height:25%;
+}
+table #th_left{
+    height:25%;
+    border-top-left-radius: 40% ;
+}
+table #th_right{
+    border-top-right-radius: 40% ;
+}
+table td{
+    padding:2% 30px 2% 2%;
+}
+footer #footer_text{
+    padding-left: 40%;
+    padding-top: 1%;
+    font-size: 12px;
+}
+.drop_down{
+    position: absolute;
+    padding-top: 1%;
+}
+.footer{height: 80px;}
+@media (max-width: 500px){
+    main{
+        margin-top: 20vw;
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        margin-left: 10vw;
+        width: 80vw;
+    }
+}
+@media (min-width: 500px) and (max-width: 1300px){
+    main{
+        margin-top: 10vw;
+    }
+}

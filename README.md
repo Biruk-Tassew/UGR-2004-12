@@ -1,2 +1,4 @@
-# UGR-2004-12
-Portfolio and portfolio website project.
+# Personal Portfolio and Profile page
+Name: Biruk Tassew Mekuria
+ID: UGR/2004/12
+

@@ -1,0 +1,142 @@
+main {
+    display: flex;
+    margin: 10% 0 0 10%;
+}
+
+.main {
+    margin-bottom: 4.9%;
+}
+
+.my_photo {
+    margin-left: 20%;
+}
+
+.footer {
+    height: 80px;
+    margin-bottom: 0;
+}
+
+.footer #social_media {
+    padding-top: 3%;
+}
+
+footer div h6 {
+    width: 170px;
+}
+@media (max-width: 1300px) and (min-width: 850px) {
+    header {
+        height: 8.7vw;
+    }
+    .footer #social_media {
+        display: flex;
+        padding-left: 51vw;
+        padding-top: 3vw;
+    }
+    main section{
+        width: 70vw;
+        margin-right: -7vw;
+    }
+    
+}
+@media (max-width: 850px) and (min-width: 500px) {
+    main {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    article {
+        padding-top: 20%;
+        width: 190%;
+        margin-right: 30%;
+    }
+
+    main section a {
+        margin-left: 40%;
+    }
+
+    header {
+        height: 10.6vw;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+    ul{
+        padding-left: 12vw;
+    }
+
+    .footer #social_media {
+        display: flex;
+        padding-left: 210%;
+        padding-top: 8%;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        height: 22.5vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+
+    main section {
+        margin-top: 100%;
+        width: 90%;
+    }
+
+    main section a {
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+
+    main img {
+        width: 80%;
+        height: 43%;
+        position: absolute;
+        top: 13%;
+        left: -12%;
+    }
+
+    .footer #social_media {
+        width: 40%;
+        padding-left: 33%;
+        padding-top: 6%;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+    header {
+        height: 20vw;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    main section {
+        margin-top: 100%;
+        width: 90%;
+    }
+
+    main img {
+        width: 80%;
+        height: 43%;
+        position: absolute;
+        top: 6%;
+        left: -12%;
+    }
+    main section a {
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+    .footer #social_media {
+        width: 40%;
+        padding-left: 33%;
+        padding-top: 6%;
+    }
+}

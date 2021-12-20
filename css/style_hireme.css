@@ -1,0 +1,19 @@
+@media (max-width: 1300px){
+    #text_area{
+        width: 80vw;
+    }
+    .submit_btn{
+        position: absolute;
+        margin-left: 38vw;
+    }
+}
+@media (max-width: 450px){
+    main h1{
+        margin-top: 20vw;
+    }
+}
+@media (min-width: 700px) and (max-width: 1300px){
+    ul{
+        padding-left: 10vw;
+    }
+}
