@@ -2,7 +2,7 @@ main {
     display: flex;
     margin: 10% 0 0 10%;
 }
-.header{
+header{
     height: 21vw;
 }
 .main {
