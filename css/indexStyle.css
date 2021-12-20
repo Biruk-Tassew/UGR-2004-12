@@ -1,6 +1,6 @@
 body{
     margin:0;
-    background-image: url("/images/background/wave-bg.svg");
+    background-image: url("../images/background/wave-bg.svg");
     background-repeat: repeat-x;
     background-position-y: 5.03em;
     width: 100%;
