@@ -1,3 +1,6 @@
+:root{
+    --secondaryHeaderColor: #cbd4dd;    
+}
 header{
     position: absolute;
     top: 0;
@@ -20,6 +23,17 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+#mainTopic{
+    text-align: center;
+    color:rgb(7, 2, 15);
+    background-color: var(--secondaryHeaderColor);
+    width: 10vw;
+    position: absolute;
+    top: 7vw;
+    left: 0;
+    padding:1rem;
+    font-size:small;
+}
 .navigation{
     position: absolute;
     top: 85%;
@@ -27,7 +41,6 @@ body{
     transform: translateX(-50%);
     display: flex;
 }
-
 .bar{
     width: 80px;
     height: 20px;

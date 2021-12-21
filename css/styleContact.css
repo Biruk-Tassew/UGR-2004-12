@@ -1,3 +1,6 @@
+:root{
+    --btnColor: #34495e; 
+}
 *{
     margin:0;
     padding:0;
@@ -63,7 +66,7 @@ textarea.text_contact{
 .submit_btn{
     float:right;
     border: 0;
-    background: #34495e;
+    background: var(--btnColor);
     color:#fff;
     padding: 12px 50px;
     border-radius: 20px;

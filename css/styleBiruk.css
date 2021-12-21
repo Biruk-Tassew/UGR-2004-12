@@ -1,3 +1,7 @@
+:root{
+    --shdowColor: rgb(193, 194, 209);
+    --tableBackground:  rgb(193, 194, 209);
+}
 body{
     margin:0;
     padding:0;
@@ -20,11 +24,11 @@ aside{
     width: 50%;
 }
 table{
-    box-shadow: 10px 10px rgb(193, 194, 209) ;
+    box-shadow: 10px 10px var(--shdowColor);
     border-radius: 10%;
 }
 table th{
-    background-color: rgb(193, 194, 209);
+    background-color: var(--tableBackground);
     height:25%;
 }
 table #th_left{

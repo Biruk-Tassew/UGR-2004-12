@@ -1,3 +1,9 @@
+:root{
+    --btnColor: #34495e; 
+    --barColor: #2e5d8d;
+    --shadowColor: rgb(193, 194, 209);
+
+}
 *{
     margin:0;
     padding:0;
@@ -12,10 +18,13 @@
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: #ff553b;
+    background-color: var(--btnColor);
     border-radius: 5%;
     top: 0;
     left: 75%;
+}
+.download_button a{
+    color: white;
 }
 .main{
     margin-top: 10%;
@@ -46,6 +55,9 @@ p{
 article h2{
     text-align: left;
 }
+#trDes{
+    padding-left: 60px;
+}
 .line{
     height:20%;
     min-width: 100%;
@@ -69,7 +81,7 @@ article h2{
 }
 .line:after{
     content:'';
-    background: lightsalmon;
+    background: var(--barColor);
     height: 3vh;
     transition: 0.8s;
     display:block;
@@ -116,7 +128,7 @@ article h2{
     padding-left: 5px;
 }
 .experiance div div{
-    box-shadow: 10px 10px rgb(239, 238, 241);
+    box-shadow: 10px 10px var(--shadowColor);
     margin-right: 15%;
     align-items: center;
     border-radius: 10%;
@@ -236,6 +248,7 @@ article h2{
         position: absolute;
         margin-top: 2450px;
         left: 250px;
+        color: white;
     }
 
 }
