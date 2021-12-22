@@ -1,76 +1,69 @@
-main {
+.wrapper__main {
     display: flex;
     margin: 10% 0 0 10%;
-}
-
-.main {
     margin-bottom: 4.9%;
 }
-.main h1{
+.wrapper__greeting{
     font-family: 'Libre Baskerville', serif;
     font-size: 35px;
     margin-bottom: 0;
 }
-.my_photo {
+.wrapper__figure{
     margin-left: 20%;
 }
 
-.footer {
+.wrapper__footer {
     height: 80px;
     margin-bottom: 0;
 }
 
-.footer #social_media {
+.wrapper__socialMedia {
     padding-top: 3%;
 }
-
-footer div h6 {
-    width: 170px;
-}
 @media (max-width: 1300px) and (min-width: 850px) {
-    header {
+    .wrapper__header {
         height: 8.7vw;
     }
-    .footer #social_media {
+    .wrapper__socialMedia{
         display: flex;
         padding-left: 51vw;
         padding-top: 3vw;
     }
-    main section{
+    .wrapper__section{
         width: 70vw;
         margin-right: -7vw;
     }
     
 }
 @media (max-width: 850px) and (min-width: 500px) {
-    main {
+    .wrapper__main{
         width: 100%;
         margin-top: 10%;
     }
 
-    article {
+    .wrapper__article {
         padding-top: 20%;
         width: 190%;
         margin-right: 30%;
     }
 
-    main section a {
+    .wrapper__link{
         margin-left: 40%;
     }
 
-    header {
+    .wrapper__header {
         height: 10.6vw;
     }
 
-    footer {
+    .wrapper__footer {
         position: absolute;
         bottom: 0;
     }
-    ul{
+    .wrapper__list{
         padding-left: 12vw;
     }
 
-    .footer #social_media {
+    .wrapper__socialMedia{
         display: flex;
         padding-left: 210%;
         padding-top: 8%;
@@ -78,67 +71,86 @@ footer div h6 {
 }
 
 @media (max-width: 400px) {
-    header {
-        height: 22.5vw;
+    .wrapper__header {
+        height: 22vw;
     }
-
-    main {
+    #check:checked ~ ul{
+        display: inline;
+        position: absolute;
+        left: 20vw;
+    }
+    .wrapper__main {
         display: flex;
         flex-direction: column;
         margin-top: 20%;
     }
 
-    main section {
-        margin-top: 100%;
+    .wrapper__article{
+        margin-top: 120vw;
         width: 90%;
     }
-
-    main section a {
+    .wrapper__paragraph--main{
+        width: 80vw;
+        margin-bottom: 15vw;
+    }
+    .wrapper__introduction{
+        width: 80vw;
+    }
+    .wrapper__link{
         margin-left: -20%;
         margin-top: 5%;
     }
 
-    .main img {
-        width: 100%;
-        height: 60%;
+    .wrapper__figure{
+        width: 50%;
+        height: 20%;
         position: absolute;
-        top: 13%;
-        left: -18%;
+        top: 15%;
+        left: 1.5%;
     }
 
-    .footer #social_media {
+
+    .wrapper__socialMedia{
         width: 40%;
         padding-left: 33%;
         padding-top: 6%;
     }
+    .wrapper__footer{
+        margin-top: 26vw;
+    }
 }
 
 @media (max-width: 500px) and (min-width: 400px) {
-    header {
-        height: 20vw;
+    .wrapper__header {
+        height: 19.4vw;
     }
-
-    main {
+    .wrapper__paragraph--main{
+        width: 80vw;
+        margin-bottom: 15vw;
+    }
+    .wrapper__main {
         display: flex;
         flex-direction: column;
     }
-    main section {
-        margin-top: 100%;
+    .wrapper__article {
+        margin-top: 110vw;
         width: 90%;
     }
-
-    main img {
+    .wrapper__introduction{
+        width: 80vw;
+    }
+    .wrapper__figure{
         width: 80%;
         height: 43%;
         position: absolute;
-        top: 6%;
-        left: -12%;
+        top: 15%;
+        left: 2%;
     }
-    main section a {
+    .wrapper__link{
         margin-left: -20%;
         margin-top: 5%;
     }
-    .footer #social_media {
+    .wrapper__socialMedia{
         width: 40%;
         padding-left: 33%;
         padding-top: 6%;

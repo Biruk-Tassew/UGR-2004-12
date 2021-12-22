@@ -5,45 +5,61 @@
     margin:0;
     padding:0;
 }
-.main_bord{
+.wrapper__mainBord{
     display: flex;
     width: 95%;
     padding:10px;
 }
-main{
+.wrapper__main{
     margin-top: 6%;
 }
-main h1{
+.wrapper__title{
     text-align:center;
     color:rgb(147, 141, 194);
     padding-top: 3%;
     padding-bottom: 1%;
 }
-.drop_down{
+.wrapper__list--second{
     position: absolute;
     top: 60%;
     left: 157.5%;
        
 }
-.contact_bord{
+.wrapper__contactBord{
     margin-left: 1%;
     width: 100%;
     margin-right: 1%;
 }
-.message_bord .form_contact{
+.wrapper__form--contact{
     width: 30em;
 }
-.message_bord .form_message{
-    width: 30em;
+.wrapper__messageBord .wrapper__form--contact{
+    width: 50em;
+    height: 15vw;
 }
-.form_contact{
-    width: 60%;
+.wrapper__form{
+    width: 70%;
     margin:auto;
-    margin-left: 8%;
+    margin-left: 18%;
     padding:0 10px;
     overflow:hidden;
 }
-.text_contact{
+.wrapper__form--contact{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin: 16px;
+    border:0;
+    background: #111;
+    padding:20px 40px;
+    outline:none;
+    color:#ddd;
+    transition:0.5s;
+}
+.wrapper__form--contact:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+.wrapper__form--txtArea{
     display: block;
     width:100%;
     box-sizing: border-box;
@@ -54,16 +70,11 @@ main h1{
     outline:none;
     color:#ddd;
     transition:0.5s;
-}
-.text_contact:focus{
-    box-shadow: 0 0 10px 4px #34495e;
-}
-textarea.text_contact{
     resize: none;
     height: 200px;
     width: 100%;
 }
-.submit_btn{
+.wrapper__form--submitBtn{
     float:right;
     border: 0;
     background: var(--btnColor);
@@ -73,32 +84,35 @@ textarea.text_contact{
     cursor: pointer;
     transition: 0.5s;
 }
-.submit_btn:hover{
+.wrapper__form--submitBtn:hover{
     background: #2980b9;
 }
-.footer div h6{
+.wrapper__copyRight__Text{
     width: 110%;
     padding-top: 10%;
 }
 
 @media (max-width: 450px){
-    .main_bord{
+    .wrapper__mainBord{
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
     }
-    header{
+    .wrapper__header{
         height: 20vw;
     }
-    #text_area{
-        width: 87vw;
-        margin-left: 5vw;
+    .wrapper__title{
+        margin-top: 20vw;
     }
-    .submit_btn{
+    .wrapper__form--contact{
+        width: 87vw;
+        margin-left: -1vw;
+    }
+    .wrapper__form--submitBtn{
         margin-right: 25vw;
         margin-top: 5vw;
     }
-    .form_contact{
+    .wrapper__form{
         margin-left: 1.9vw;
         margin-top: 10vw;
         width: 86.7vw;
@@ -112,54 +126,59 @@ textarea.text_contact{
         padding-left: 38vw;
     }
     ul{
-        height: 70vw;
+        height: 90vw;
         padding-left: 11vw;
+    }
+    #check:checked ~ ul{
+        display: inline;
+        position: absolute;
+        left: 50vw;
     }
 }
 @media (min-width:450px) and (max-width: 1300px){
-    header{
-        height: 9.01vw;
+    .wrapper__header{
+        height: 13%;
     }
     main{
         margin-top: 12vw;
     }
-    #text_area{
+    .wrapper__form--txtArea{
         width: 70vw;
         margin-left: 10vw;
     }
-    .main_bord{
+    .wrapper__mainBord{
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
     }
-    .submit_btn{
-        margin-right: -15vw;
+    .wrapper__form--submitBtn{
+        margin-right: -1vw;
         margin-top: 5vw;
     }
-    .footer #social_media {
+    .wrapper__spcialMedia{
         width: 40%;
         padding-left: 65vw;
         padding-top: 2vw;
     }
 }
 @media (max-width: 800px) and (min-width: 750px){
-    header{
+    .wrapper__header{
         height: 10.5vw;
     }
 }
 @media (max-width: 400px){
-    header{
+    .wrapper__header{
         height: 22.1vw;
     }
-    main{
+    .wrapper__main{
         overflow-x: hidden;
     }
-    .footer #social_media {
+    .wrapper__spcialMedia{
         width: 40%;
         padding-left: 30vw;
         padding-top: 2vw;
     }
-    .submit_btn{
+    .wrapper__form--submitBtn{
         margin-right: 45vw;
         margin-top: 5vw;
     }

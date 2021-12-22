@@ -1,19 +1,32 @@
+.wrapper__footer{
+    margin-top: 15vw;
+}
+.wrapper__copyRight{
+    padding-top: 1vw;
+}
+.wrapper__form--contact{
+    width: 30em;
+}
+.wrapper__messageBord .wrapper__form--contact{
+    width: 50em;
+    height: 15vw;
+}
 @media (max-width: 1300px){
-    #text_area{
+    .wrapper__form--contact{
         width: 80vw;
     }
-    .submit_btn{
+    .swrapper__form--submitBtn{
         position: absolute;
         margin-left: 38vw;
     }
 }
 @media (max-width: 450px){
-    main h1{
+    .wrapper__title{
         margin-top: 20vw;
     }
 }
 @media (min-width: 700px) and (max-width: 1300px){
-    ul{
+    .wrapper__list{
         padding-left: 10vw;
     }
 }

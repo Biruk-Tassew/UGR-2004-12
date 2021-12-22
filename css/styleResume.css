@@ -8,7 +8,7 @@
     margin:0;
     padding:0;
 }
-.download_button{
+.wrapper__downloadButton{
     position: relative;
     cursor: pointer;
     font-size: 15px;
@@ -23,42 +23,44 @@
     top: 0;
     left: 75%;
 }
-.download_button a{
+.wrapper__downloadButton .wrapper__link{
     color: white;
 }
-.main{
+.wrapper__main{
     margin-top: 10%;
+    overflow-x: hidden;
 }
-
-h1{
+.wrapper__article--main .wrapper__title{
     text-align:center;
     padding-bottom: 3%;
 }
-article{
+.wrapper__article--main{
     margin: 5% 10% 2% 10%;
     justify-content: center;
 }
-article h3{
+.wrapper__skills .wrapper__titleTwo{
     padding-bottom: 1.5%;
 }
-article p{
+
+.wrapper__main .wrapper__article .wrapper__text{
     padding-bottom: 2%;
-}
-p{
     width:60%;
 }
-.skills{
+.wrapper__skills{
     width:50%;
     margin: 5% 15% 0 15%;
-
 }
-article h2{
+.wrapper__article .wrapper__titleTwo{
     text-align: left;
 }
-#trDes{
-    padding-left: 60px;
+.wrapper__skills .wrapper__title{
+    text-align: center;
 }
-.line{
+.wrapper__c2Def{
+    padding-left: 5px;
+}
+
+.wrapper__line{
     height:20%;
     min-width: 100%;
     margin: 2% auto 5% 5%;
@@ -68,7 +70,7 @@ article h2{
     padding: 1.5% 0 0 14%;
     position: relative;
 }
-.line:before{
+.wrapper__line:before{
     content:"";
     width:100%;
     position:absolute;
@@ -79,7 +81,7 @@ article h2{
     background:dimgrey;
 
 }
-.line:after{
+.wrapper__line:after{
     content:'';
     background: var(--barColor);
     height: 3vh;
@@ -92,19 +94,19 @@ article h2{
     left:11vh;
     z-index:-1;
 }
-.l1:after{
+.wrapper__line--l1:after{
     max-width: 70%;
 }
-.l2:after{
+.wrapper__line--l2:after{
     max-width: 50%;
 }
-.l3:after{
+.wrapper__line--l3:after{
     max-width: 70%;
 }
-.l4:after{
+.wrapper__line--l4:after{
     max-width: 85%;
 }
-.l5:after{
+.wrapper__line--l5:after{
     max-width: 80%;
 }
 @keyframes animate2{
@@ -115,19 +117,21 @@ article h2{
         width:100%;
     }
 }
-
-.M_experiance h2{
+.wrapper__Mexperiance .wrapper__titleTwo{
+    padding-left: 50vw;
+}
+.wrapper__Mexperiance .wrapper__textTwo{
     padding: 5% 0 0 42%; 
 }
-.experiance{
-    padding-left: 5%;
+.wrapper__experiance{
+    padding-left: 13%;
 }
-.experiance div{
+.wrapper__experiance .wrapper__row{
     width: 70em;
     height: 20em;
     padding-left: 5px;
 }
-.experiance div div{
+.wrapper__webExp{
     box-shadow: 10px 10px var(--shadowColor);
     margin-right: 15%;
     align-items: center;
@@ -135,13 +139,13 @@ article h2{
     padding-right: 10px;
 
 }
-.experiance div div p{
+.wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__text{
     width: 20em;
     padding: 1.5em 0 0 1.5em;
 }
 
 
-.experiance div div section{
+.wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__section{
     background-color: rgb(179, 200, 219);
     width: 97.5%;
     height: 15%;
@@ -150,15 +154,15 @@ article h2{
 
 }
 
-.experiance .row_2{
+.wrapper__experiance .wrapper__row--two{
     padding-left: 40px;
 }
-.experiance .row_1, .row_2{
+.wrapper__experiance .wrapper__row--one, .wrapper__row--two{
     display: flex;
     padding:40px;
 }
 
-.experiance .row_1 .web_exp{
+.wrapper__experiance .wrapper__row--one .wrapper__webExp{
     justify-content: center;
 
 }
@@ -168,7 +172,7 @@ article h2{
     left: 157.5%;
        
 }
-.footer footer{
+.wrapper__footer{
     padding-top: 1%;
 }
 @media (max-width: 600px){
@@ -176,148 +180,147 @@ article h2{
         display: flex;
         flex-direction: column;
     } */
-    header{
-        height: 19.5vw;
+    .wrapper__header{
+        height: 21vw;
     }
-    .article_1{
-        width: 50%;
-        margin-left: -8.7%;
+    .wrapper__article--main{
+        width: 130vw;
+        margin-left: 9%;
+        margin-top: 20vw;
     }
-   .article_1 h1{
+   .wrapper__article--main .wrapper__title{
         position: absolute;
         left: 35%;
     }
-    .article_1 h3{
+    .wrapper__article--main .wrapper__titleTwo{
         padding-top: 10%;
+        width: 100vw;
     }
-    .skills{
+
+    .wrapper__skills{
         width: 40vw;
-        margin-left: -15vw;
+        margin-left: 10vw;
     }
-    .skills h1{
+    .wrapper__skills .wrapper__title{
         padding-left: 50%;
     }
-    .line{
+    .wrapper__line{
         padding-bottom: 5%;
     }
-    .row{
+    .wrapper__row{
         display: flex;
         flex-direction: column;
-        margin-left: -22%;
+        margin-left: -25%;
     }
-    .row_1 .web_exp{
-        margin-bottom: 10vw;
+    .wrapper__row--one .wrapper__webExp{
+        margin-bottom: 15vw;
     }
-    .row p{
+    .wrapper__row .wrapper__text{
         width: 1vw;
     }
-    .web_exp2{
-        width: 10vw;
-        margin-top: 10vw;
+    .wrapper__webExp--two{
+        width: 15vw;
+        margin-top: 1vw;
     }
     
-    .experiance div div section{
-        width: 79vw;
+    
+    .wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__section{
+        width: 80vw;
         height: 11vw;
         margin-left: 5vw;
     }
-    .M_experiance h2{
-        padding-left: 0;
+    .wrapper__row .wrapper__textTwo{
+        padding-left: 10%;
     }
     
-    .row_1{
+    .wrapper__row--one{
         margin-bottom: 70vw;
     }
-    .footer{
-        height: 30vw;
-        margin-top: 15vw;
+    .wrapper__footer{
+        height: 20vw;
+        margin-top: 40vw;
     }
-    #footer_text{
-        position: absolute;
-        padding-top: 10vw;
-        width: 80vw;
-    }
-    ul{
+    .wrapper__list{
         height: 80vw;
         padding-left: 13vw;
     }
-    .experiance div div{
+    .wrapper__experiance .wrapper__row .wrapper__webExp{
         width: 85vw;
     }
-    .download_button{
+    .wrapper__downloadButton{
         position: absolute;
-        margin-top: 2450px;
-        left: 250px;
+        margin-top: 2250px;
+        left: 200px;
         color: white;
     }
 
 }
 @media (max-width: 1000px) and (min-width: 850px){
-    header{
+    .wrapper__header{
         height: 8.8vw;
     }
-    .article_1 h1{
+    .wrapper__article--main .wrapper__title{
         padding-right: 40vw;
     }
-    .article_1 p{
+    .wrapper__article--main p{
         width: 40vw;
     }
-    .skills{
+    .wrapper__skills{
         margin-left: 7vw;
     }
-    .M_experiance{
+    .wrapper__Mexperiance{
         width: 20vw;
         margin-left: 2vw;
     }
-    .row{
+    .wrapper__row{
         display: flex;
         flex-direction: column;
     }
-    .experiance div div section{
+    .wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__section{
         width: 50vw;
         height: 5vw;
     }
-    .web_exp section h4{
+    .wrapper__webExp .wrapper__section .wrapper__titleThree{
         margin-top: -2vw;
     }
-    .experiance div div{
+    .wrapper__experiance .wrapper__row .wrapper__webExp{
         width: 51.5vw;
     }
-    .row_1 .web_exp{
+    .wrapper__row--one .wrapper__webExp{
         margin-bottom: 80vw;
     }
     .footer{
         margin-top: 30vw;
     }
-    .download_button{
+    .wrapper__downloadButton{
         position: absolute;
         margin-top: 2208px;
     }
 
 }
 @media (min-width: 600px) and (max-width: 850px){
-    .M_experiance{
+    .wrapper__Mexperiance{
         width: 20vw;
         margin-left: 2vw;
     }
-    .row{
+    .wrapper__row{
         display: flex;
         flex-direction: column;
     }
-    .experiance div div section{
+    .wrapper__experiance .wrapper__row .wrapper__webExp section{
         width: 50vw;
         height: 5vw;
     }
-    .web_exp section h4{
+    .wrapper__webExp .wrapper__section .wrapper__titleThree{
         margin-top: -2vw;
     }
-    .experiance div div{
+    .wrapper__experiance .wrapper__row .wrapper__webExp{
         width: 51.5vw;
     }
-    .row_1 .web_exp{
+    .wrapper__row--one .wrapper__webExp{
         margin-bottom: 110vw;
     }
-    .download_button{
+    .wrapper__downloadButton{
         position: absolute;
         margin-top: 2208px;
     }

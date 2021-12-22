@@ -6,64 +6,66 @@ body{
     margin:0;
     padding:0;
 }
-main{
+.wrapper__main{
     display:flex;
     overflow: auto;
     margin-top: 1%;
 }
 
-header{
+.wrapper__header{
     height: 13%;
 }
-article{
+.wrapper__article{
     width:70%;
-    margin:5% 5% 0 10%  ;
+    margin:5% 5% 0 10%;
 }
-aside{
+.wrapper__aside{
     margin: 9% 3% 0 0;
     width: 50%;
 }
-table{
+.wrapper__table{
     box-shadow: 10px 10px var(--shdowColor);
     border-radius: 10%;
 }
-table th{
+.wrapper__tableHead{
     background-color: var(--tableBackground);
     height:25%;
 }
-table #th_left{
+.wrapper__tableHead--left{
     height:25%;
     border-top-left-radius: 40% ;
 }
-table #th_right{
+.wrapper__tableHead--right{
     border-top-right-radius: 40% ;
 }
-table td{
+.wrapper__tableDef{
     padding:2% 30px 2% 2%;
-}
-footer #footer_text{
-    padding-left: 40%;
-    padding-top: 1%;
-    font-size: 12px;
 }
 .drop_down{
     position: absolute;
     padding-top: 1%;
 }
-.footer{height: 80px;}
+.wrapper__footer{height: 80px;}
 @media (max-width: 500px){
-    main{
+    .wrapper__main{
         margin-top: 20vw;
         display: flex;
         flex-direction: column;
     }
-    aside{
+    .wrapper__aside{
         margin-left: 10vw;
         width: 80vw;
     }
+    .wrapper__header{
+        height: 21vw;
+    }
 }
 @media (min-width: 500px) and (max-width: 1300px){
-    main{
+    .wrapper__main{
         margin-top: 10vw;
     }
+    .wrapper__header{
+        height: 7vw;
+    }
+}
 }
