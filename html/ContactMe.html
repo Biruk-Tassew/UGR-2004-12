@@ -8,74 +8,71 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="../css/indexStyle.css" rel="stylesheet">
     <link href="../css/styleContact.css" rel="stylesheet">
-    <title>Biruk Tassew</title>
+    <title>Contact Me</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header>
-            <img src="../images/logo/BCoder-logos.jpeg" width="80ex" height="80ex" alt="BCODER Logo">
-            <nav>
+        <header class="wrapper__header">
+            <img src="../images/logo/BCoder-logos.jpeg" width="80ex" height="80ex" class="wrapper__image--header" alt="BCODER Logo" >
+            <nav class="wrapper__nav">
                 <label for="check">
                     <i class="fas fa-bars" id="btn"></i>
                 </label>
                 <input type="checkbox" id="check">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="Resume.html">Resume</a></li>
-                    <li><a href="Portfolio.html">Portfolio</a></li>
-                    <li>About
+                <ul class="wrapper__list">
+                    <li class="wrapper__item"><a href="../index.html" class="wrapper__link">Home</a></li>
+                    <li class="wrapper__item"><a href="Resume.html" class="wrapper__link">Resume</a></li>
+                    <li class="wrapper__item"><a href="Portfolio.html" class="wrapper__link">Portfolio</a></li>
+                    <li class="wrapper__item"><span class="wrapper__span">About</span>
                         <ul class="drop_down">
-                            <li><a href="BirukTassew.html">Biruk Tassew</a></li>
-                            <li><a href="Testimony.html">Testimony</a></li>
+                            <li><a href="BirukTassew.html" class="wrapper__link">Biruk Tassew</a></li>
+                            <li><a href="Testimony.html" class="wrapper__link">Testimony</a></li>
                         </ul>
                     </li>
-                    <li><a href="ContactMe.html">Contact me</a></li>
+                    <li class="wrapper__item"><a href="ContactMe.html" class="wrapper__link">Contact me</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <h1>Contact me</h1>
-            <div class="main_bord">
-                <div class="contact_bord">
-                    <form class="form_contact" action="index.html" method="post">
-                        <input type="text" name="name" class="text_contact" placeholder="Full name"><br>
-                        <input type="email" name="email" class="text_contact" placeholder="Email"><br>
-                        <input type="text" name="phone_no" class="text_contact" placeholder="Phone number"><br>
+        <main class="wrapper__main">
+            <h1 class="wrapper__title">Contact me</h1>
+            <div class="wrapper__mainBord">
+                <div class="wrapper__contactBord">
+                    <form class="wrapper__form" action="index.html" method="post">
+                        <input type="text" name="name" class="wrapper__form--contact" placeholder="Full name"><br>
+                        <input type="email" name="email" class="wrapper__form--contact" placeholder="Email"><br>
+                        <input type="text" name="phone_no" class="wrapper__form--contact" placeholder="Phone number"><br>
                     </form>
                 </div>
-                <div class="message_bord">
-                    <form class="form_message" action="index.html" method="post">
-                        <textarea id="text_area" class="text_contact" name="reason"
+                <div class="wrapper__messageBord">
+                    <form class="wrapper__form" action="index.html" method="post">
+                        <textarea id="text_area" class="wrapper__form--contact" name="reason"
                             placeholder="Your meassage"></textarea>
-                        <input type="submit" class="submit_btn" name="btn_submit" value="Send">
+                        <input type="submit" class="wrapper__form--submitBtn" name="btn_submit" value="Send">
                     </form>
                 </div>
 
 
             </div>
         </main>
-        <div class="footer">
-            <footer>
-                <div>
-                    <p id="copRightText">
-                        © 2021 All Rights Reserved
-                    </p>
-                </div>
-                <div id="social_media">
-                    <a href="https://www.linkedin.com/in/biruk-tassew-691724196/" target="_blank"><img
-                            src="../images/icons/317735_career_linkedin_icon.png" width="20px" height="20px"
-                            alt="Linkedin"></a>
-                    <a href=""><img src="../images/icons/3377044_logo_media_social_twitter_icon.png" width="20px"
-                            height="20px" alt="twitter"></a>
-                    <a href=""><img src="../images/icons/4518804_telegram_icon.png" width="20px" height="20px"
-                            alt="Telegram"></a>
-                    <a href=""><img src="../images/icons/317746_facebook_social" width="18px" height="18px"
-                            alt="facebook"></a>
-                </div>
-            </footer>
-        </div>
-
+        <footer class="wrapper__footer">
+            <div class="wrapper__copyRight">
+                <p class="wrapper__copyRight__Text">
+                    © 2021 All Rights Reserved
+                </p>
+            </div>
+            <div class="wrapper__socialMedia">
+                <a href="https://www.linkedin.com/in/biruk-tassew-691724196/" target="_blank" class="wrapper__link--socialMedia"><img
+                        src="../images/icons/317735_career_linkedin_icon.png" width="20px" height="20px"
+                        class="wrapper__linkedimg" alt="Linkedin"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/3377044_logo_media_social_twitter_icon.png" width="20px"
+                        height="20px" class="wrapper__twitterimg" alt="twitter"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/4518804_telegram_icon.png" width="20px" height="20px"
+                        class="wrapper__telegramimg" alt="Telegram"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/317746_facebook_social" width="18px" height="18px"
+                        class="wrapper__facebookimg" alt="facebook"></a>
+            </div>
+        </footer>
 </body>
 
 </html>

@@ -13,31 +13,31 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <img src="../images/logo/BCoder-logos.jpeg" width="80ex" height="80ex" alt="BCODER Logo">
-            <nav>
+        <header class="wrapper__header">
+            <img src="../images/logo/BCoder-logos.jpeg" width="80ex" height="80ex" class="wrapper__image--header" alt="BCODER Logo" >
+            <nav class="wrapper__nav">
                 <label for="check">
                     <i class="fas fa-bars" id="btn"></i>
                 </label>
                 <input type="checkbox" id="check">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="Resume.html">Resume</a></li>
-                    <li><a href="Portfolio.html">Portfolio</a></li>
-                    <li>About
+                <ul class="wrapper__list">
+                    <li class="wrapper__item"><a href="../index.html" class="wrapper__link">Home</a></li>
+                    <li class="wrapper__item"><a href="Resume.html" class="wrapper__link">Resume</a></li>
+                    <li class="wrapper__item"><a href="Portfolio.html" class="wrapper__link">Portfolio</a></li>
+                    <li class="wrapper__item"><span class="wrapper__span">About</span>
                         <ul class="drop_down">
-                            <li><a href="BirukTassew.html">Biruk Tassew</a></li>
-                            <li><a href="Testimony.html">Testimony</a></li>
+                            <li><a href="BirukTassew.html" class="wrapper__link">Biruk Tassew</a></li>
+                            <li><a href="Testimony.html" class="wrapper__link">Testimony</a></li>
                         </ul>
                     </li>
-                    <li><a href="ContactMe.html">Contact me</a></li>
-                </ul> 
+                    <li class="wrapper__item"><a href="ContactMe.html" class="wrapper__link">Contact me</a></li>
+                </ul>
             </nav>
         </header>
-        <main>
-            <article>
-                <h1>My story starts in small town called Asella...</h1>
-                <p>March 2, 2000GC was the day the spark of the sun shined on me. On that day my father Tassew Mekuria
+        <main class="wrapper__main">
+            <article class="wrapper__article">
+                <h1 class="wrapper__title">My story starts in small town called Asella...</h1>
+                <p class="wrapper__text--one">March 2, 2000GC was the day the spark of the sun shined on me. On that day my father Tassew Mekuria
                     and
                     also my mother Fasika Shirkabu
                     had been satisfied with thier life as they were never been before( ofcourse they themselves told
@@ -56,24 +56,24 @@
                     first day of my life when GOD put me in
                     the hands of those good people.
                 </p>
-                <p>In this life of mine i have learned and acquired much skill on computers. Again the effort of my
+                <p class="wrapper__text--two">In this life of mine i have learned and acquired much skill on computers. Again the effort of my
                     parrents
                     helped me here a lot providing a pc when a TV
                     is prcious to many at the time in my country.
                 </p>
             </article>
-            <aside>
-                <p>
+            <aside class="wrapper__aside">
+                <p class="wrapper__text--three">
                     Using this knowladge and experiance of mine, i was able to work in many projects and produce my
                     fruitfull products. Below i have mentioned few just for impression(More on the portfolio page:)
                 </p>
-                <table>
+                <table class="wrapper__table">
                     <tr>
-                        <th id="th_left">Company(for)</th>
-                        <th id="th_right">projects</th>
+                        <th class="wrapper__tableHead wrapper__tableHead--left">Company(for)</th>
+                        <th class="wrapper__tableHead wrapper__tableHead--right">projects</th>
                     </tr>
                     <tr>
-                        <td>My self</td>
+                        <td class="wrapper__tableDef">My self</td>
                         <td>A portfolio website. I learned a lot about web design and buildeing, specially frontend here.</td>
                     </tr>
                     <tr>
@@ -84,17 +84,22 @@
                 </table>
             </aside>
         </main>
-        <div class="footer">
-            <footer>
-                <div>
-                    <p id="copyRightText">
-                        © 2021 All Rights Reserved
-                    </p>
-                </div>
-                <p id="footer_text">
-                    Thank you for visiting my site!!!<br />
-                    You can contact me if you to get your own portfolio website.
+        <footer class="wrapper__footer">
+            <div class="wrapper__copyRight">
+                <p class="wrapper__copyRight__Text">
+                    © 2021 All Rights Reserved
                 </p>
-            </footer>
-        </div>
+            </div>
+            <div class="wrapper__socialMedia">
+                <a href="https://www.linkedin.com/in/biruk-tassew-691724196/" target="_blank" class="wrapper__link--socialMedia"><img
+                        src="../images/icons/317735_career_linkedin_icon.png" width="20px" height="20px"
+                        class="wrapper__linkedimg" alt="Linkedin"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/3377044_logo_media_social_twitter_icon.png" width="20px"
+                        height="20px" class="wrapper__twitterimg" alt="twitter"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/4518804_telegram_icon.png" width="20px" height="20px"
+                        class="wrapper__telegramimg" alt="Telegram"></a>
+                <a href="" class="wrapper__link--socialMedia"><img src="../images/icons/317746_facebook_social" width="18px" height="18px"
+                        class="wrapper__facebookimg" alt="facebook"></a>
+            </div>
+        </footer>
 </body>
