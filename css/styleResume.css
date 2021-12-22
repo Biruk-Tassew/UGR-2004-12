@@ -226,7 +226,7 @@
     
     .wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__section{
         width: 80vw;
-        height: 18vw;
+        height: 11vw;
         margin-left: 5vw;
     }
     .wrapper__row .wrapper__textTwo{
@@ -253,6 +253,8 @@
         left: 200px;
         color: white;
     }
+    .wrapper__nav ul{
+        height: 90vw;
 
 }
 @media (max-width: 1000px) and (min-width: 850px){
