@@ -183,7 +183,7 @@ input[name="pr"]{
         margin-top: -435vw;
     }
     .wrapper__input__pr4:checked ~ .wrapper__slide--s1{
-        margin-top: -600vw;
+        margin-top: -595vw;
     }
     .wrapper__footer{
         margin-top: -17vw;
