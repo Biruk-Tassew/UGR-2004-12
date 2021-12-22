@@ -18,11 +18,11 @@
     padding:1rem;
     font-size:xx-small;
 }
-main{
+.wrapper__main{
     margin-top: 8%;
     margin-bottom: 2.1%;
 }
-.main_bord{
+.wrapper__main--bord{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:5%;
@@ -30,7 +30,7 @@ main{
     margin: auto;
     margin-top: 2%;
 }
-.main_bord img{
+.wrapper__main--bord .wrapper__img{
     width: 30%;
     height: 30%;
     border-radius:50%;
@@ -39,10 +39,10 @@ main{
     display: block;
     margin-bottom: 10px;
 }
-.main_bord p{
+.wrapper__main--bord .wrapper__text{
     font-size: 12px;
 }
-.main_bord i{
+.wrapper__main--bord i{
     margin-top: 3%;
 }
 .drop_down{
@@ -51,96 +51,88 @@ main{
     left: 157.5%;
        
 }
-.person{
+.wrapper__person{
     text-align: center;
     padding:1.5rem;
     border-bottom-right-radius: 40%;
     border-top-left-radius: 40%;
 }
-.p1{
+.wrapper__person--p1{
     border: 1px solid var(--secondaryColor);
 }
-.p2{
+.wrapper__person--p2{
     border: 1px solid var(--secondaryColor);
 }
-.p3{
+.wrapper__person--p3{
     border: 1px solid var(--secondaryColor);
 }
-.p1 img{
+.wrapper__person--p1 .wrapper__img{
     border: 1px solid var(--secondaryColor);
 }
-.p2 img{
+.wrapper__person--p2 .wrapper__img{
+     border: 1px solid var(--secondaryColor);
+}
+.wrapper__person--p3 .wrapper__img{
     border: 1px solid var(--secondaryColor);
 }
-.p3 img{
-    border: 1px solid var(--secondaryColor);
-}
-.p1 i{
+.wrapper__person--p1 i{
     font-size: 20px;
     margin-bottom: 10px;
     color:#FFDF00;
 }
-.p2 i{
+.wrapper__person--p2 i{
     font-size: 20px;
     margin-bottom: 10px;
     color:#D3D3D3;
 }
-.p3 i{
+.wrapper__person--p3 i{
     font-size: 20px;
     margin-bottom: 10px;
     color:#D3D3D3;
 }
-.name{
+.wrapper__text--name{
     text-transform: uppercase;
     font-weight: 600;
     margin-top: 10px;
 }
-.job{
+.wrapper__text--job{
     text-transform: uppercase;
     opacity: 0.8;
     font-size: 14px;
     margin-top:5px;
     margin-bottom: 10px;
 }
-footer #footer_text{
-    padding-left: 40%;
-    padding-top: 1%;
-    font-size: 12px;
-}
-footer div{
-    padding-top: 2%;
-}
 @media (max-width: 700px){
-    .main_bord{
+    .wrapper__main--bord{
         display: flex;
         flex-direction: column;
     }
-    .person{
+    .wrapper__person{
         margin-top: 8vw;
     }
-    header{
+    .wrapper__header{
         height: 19.5vw;
     }
-    .header2{
+    .wrapper__headerTwo{
         margin-top: 15vw;
     }
-    ul{
+    .wrapper__list{
         padding-left: 12vw;
     }
 }
 @media  (min-width: 600px) and  (max-width: 700px){
- header{
+ .wrapper__header{
      height: 12vw;
  }
- ul{
+ .wrapper__list{
     padding-left: 12vw;
 }
 }
 @media  (min-width: 700px) and  (max-width: 1300px){
-    header{
+    .wrapper__header{
         height: 8.9vw;
     }
-    ul{
+    .wrapper__list{
         padding-left: 12vw;
     }
 }
