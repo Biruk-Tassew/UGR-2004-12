@@ -167,7 +167,7 @@ label #btn{
     #check:checked ~ ul{
         display: inline;
         position: absolute;
-        left: 80vw;
+        left: 60vw;
     }
     label #btn{
         display: block;
