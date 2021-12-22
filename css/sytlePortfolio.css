@@ -177,13 +177,13 @@ input[name="pr"]{
         margin-top: -110%;
     }
     .wrapper__input__pr2:checked ~ .wrapper__slide--s1{
-        margin-top: -290vw;
+        margin-top: -270vw;
     }
     .wrapper__input__pr3:checked ~ .wrapper__slide--s1{
-        margin-top: -455vw;
+        margin-top: -435vw;
     }
     .wrapper__input__pr4:checked ~ .wrapper__slide--s1{
-        margin-top: -620vw;
+        margin-top: -600vw;
     }
     .wrapper__footer{
         margin-top: -17vw;
