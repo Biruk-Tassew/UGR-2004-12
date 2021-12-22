@@ -176,10 +176,7 @@
     padding-top: 1%;
 }
 @media (max-width: 600px){
-    /* article{
-        display: flex;
-        flex-direction: column;
-    } */
+    
     .wrapper__header{
         height: 21vw;
     }
@@ -255,7 +252,13 @@
     }
     .wrapper__nav ul{
         height: 90vw;
-
+    }
+    #check:checked ~ ul{
+        display: inline;
+        position: absolute;
+        left: 55vw;
+        height: 90vw;
+    }
 }
 @media (max-width: 1000px) and (min-width: 850px){
     .wrapper__header{
