@@ -16,6 +16,13 @@
     height: 80px;
     margin-bottom: 0;
 }
+.wrapper__image{
+    margin-top: -15%;
+    padding-top: 20%;
+    height: 60%;
+    width: 60%;
+    border-radius: 50%;
+}
 
 .wrapper__socialMedia {
     padding-top: 3%;
