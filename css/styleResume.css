@@ -23,6 +23,16 @@
     top: 0;
     left: 75%;
 }
+#resume:after{
+    content: '';
+    position: absolute;
+    background-color: var(--underlineColor);
+    height: 3%;
+    width: 12%;
+    left: 126%;
+    transition: 0.3s;
+    bottom: 30px;
+}
 .wrapper__downloadButton .wrapper__link{
     color: white;
 }

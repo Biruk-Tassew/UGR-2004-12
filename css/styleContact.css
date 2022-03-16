@@ -19,6 +19,16 @@
     padding-top: 3%;
     padding-bottom: 1%;
 }
+#contact:after{
+    content: '';
+    position: absolute;
+    background-color: var(--underlineColor);
+    height: 3%;
+    width: 17.4%;
+    left: 176.8%;
+    transition: 0.3s;
+    bottom: 30px;
+}
 .wrapper__list--second{
     position: absolute;
     top: 60%;

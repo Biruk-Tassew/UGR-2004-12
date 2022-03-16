@@ -7,6 +7,7 @@ body{
     margin:0;
     background-image: url("../images/background/wave-bg.svg");
     background-repeat: repeat-x;
+    background-attachment: fixed;
     background-position-y: 5.03em;
     width: 100%;
     overflow-x: hidden;
@@ -80,6 +81,11 @@ body{
 }
 .wrapper__main .wrapper__article{
     margin-bottom: -4.3vw;
+}
+.wrapper__image--header{
+    border-radius: 90%;
+    margin-top: 1%;
+    margin-left: 2%;
 }
 .wrapper__link:after{
     content: '';
@@ -185,22 +191,20 @@ label #btn{
     line-height: 50px;
     text-align: center;
     background-color: var(--btnColor);
-    border-radius: 5%;
     top: 18%;
     left: 35%;
     color: white;
     text-decoration: none;
 }
 .wrapper__button:hover{
-    background-color: #2185e9;
-    color: black;
+    border-radius: 5%;
     text-transform: capitalize;
     
 }
 .wrapper__footer{
     background-color: var(--primaryColor);
     position: relative;
-    margin-top: 13%;
+    margin-top: 10%;
     height: 60px;
     clear: both;
 }

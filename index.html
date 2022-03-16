@@ -19,7 +19,7 @@
 <body>
     <div class="wrapper">
         <header class="wrapper__header">
-            <img src="images/logo/BCoder-logos.jpeg" width="80ex" height="80ex" class="wrapper__image--header"
+            <img src="images/logo/logo.jpg" width="80ex" height="80ex" class="wrapper__image--header"
                 alt="BCODER Logo">
             <nav class="wrapper__nav">
                 <label for="check">
@@ -27,21 +27,21 @@
                 </label>
                 <input type="checkbox" id="check">
                 <ul class="wrapper__list">
-                    <li class="wrapper__item"><a href="index.html" class="wrapper__link">Home</a></li>
-                    <li class="wrapper__item"><a href="html/Resume.html" class="wrapper__link">Resume</a></li>
-                    <li class="wrapper__item"><a href="html/Portfolio.html" class="wrapper__link">Portfolio</a></li>
-                    <li class="wrapper__item"><span class="wrapper__span">About</span>
-                        <ul class="drop_down">
-                            <li><a href="html/BirukTassew.html" class="wrapper__link">Biruk Tassew</a></li>
+                    <li class="wrapper__item" id="home"><a href="index.html" class="wrapper__link">Home</a></li>
+                    <li class="wrapper__item" id="resume"><a href="html/Resume.html" class="wrapper__link">Resume</a></li>
+                    <li class="wrapper__item" id="port"><a href="html/Portfolio.html" class="wrapper__link">Portfolio</a></li>
+                    <li class="wrapper__item" id="about"><span class="wrapper__span">About</span>
+                        <ul class="drop_down" >
+                            <li><a href="html /BirukTassew.html" class="wrapper__link">Biruk Tassew</a></li>
                             <li><a href="html/Testimony.html" class="wrapper__link">Testimony</a></li>
                         </ul>
                     </li>
-                    <li class="wrapper__item"><a href="html/ContactMe.html" class="wrapper__link">Contact me</a></li>
+                    <li class="wrapper__item" id="contact"><a href="html/ContactMe.html" class="wrapper__link">Contact me</a></li>
                 </ul>
             </nav>
         </header>
         <main class="wrapper__main">
-            <section class="wrapper__section">
+            <div class="wrapper__section">
                 <article class="wrapper__article">
                     <h1 class="wrapper__greeting">Hi!!!</h1>
                     <h2 class="wrapper__introduction">I'm Biruk Tassew</h2>
@@ -51,10 +51,10 @@
                     </p>
                 </article>
                 <a class="wrapper__button" href="html/hireMe.html">Hire me!</a>
-            </section>
-            <figure class="wrapper__figure">
+            </div>
+            <div class="wrapper__figure">
                 <img class="wrapper__image" src="images/logo/mine2.jpg" alt="My photo">
-            </figure>
+            </div>
         </main>
         <footer class="wrapper__footer">
             <div class="wrapper__copyRight">

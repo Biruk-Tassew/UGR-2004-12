@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
 .wrapper__main {
-    display: flex;
-    margin: 10% 0 0 10%;
-    margin-bottom: 4.9%;
+    display: grid;
+}
+.wrapper__main .wrapper__section{
+    margin: 0 0 0 10%;
 }
 .wrapper__greeting{
     font-family: 'Libre Baskerville', serif;
@@ -11,10 +15,18 @@
 .wrapper__figure{
     margin-left: 20%;
 }
-
+#home:after{
+    content: '';
+    position: absolute;
+    background-color: var(--underlineColor);
+    height: 3%;
+    width: 9%;
+    left: 112.4%;
+    transition: 0.3s;
+    bottom: 30px;
+}
 .wrapper__footer {
     height: 80px;
-    margin-bottom: 0;
 }
 .wrapper__image{
     margin-top: -15%;
