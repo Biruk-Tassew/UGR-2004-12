@@ -72,19 +72,22 @@ input[name="pr"]{
     height: 100%;
 }
 .wrapper__input__pr1:checked ~ .wrapper__slide--s1{
-    margin-left: 7.5%;
+    margin-left: 8%;
 }
 .wrapper__input__pr2:checked ~ .wrapper__slide--s1{
-    margin-left: 1.7%;
+    margin-left: 2.6%;
 }
 .wrapper__input__pr3:checked ~ .wrapper__slide--s1{
-    margin-left: -4.2%;
+    margin-left: -2.7%;
 }
 .wrapper__input__pr4:checked ~ .wrapper__slide--s1{
-    margin-left: -10.5%;
+    margin-left: -8%;
 }
 .wrapper__input__pr5:checked ~ .wrapper__slide--s1{
-    margin-left: -16%;
+    margin-left: -13%;
+}
+.wrapper__input__pr6:checked ~ .wrapper__slide--s1{
+    margin-left: -18.3%;
 }
 .wrapper__footer{
     position: absolute;
