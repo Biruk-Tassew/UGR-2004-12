@@ -28,8 +28,8 @@
     position: absolute;
     background-color: var(--underlineColor);
     height: 3%;
-    width: 12%;
-    left: 126%;
+    width: 13%;
+    left: 17.2%;
     transition: 0.3s;
     bottom: 30px;
 }

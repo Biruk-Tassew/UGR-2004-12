@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-  }
 .wrapper__main {
     display: grid;
 }
@@ -20,8 +17,8 @@
     position: absolute;
     background-color: var(--underlineColor);
     height: 3%;
-    width: 9%;
-    left: 112.4%;
+    width: 9.3%;
+    left: 2.5%;
     transition: 0.3s;
     bottom: 30px;
 }
