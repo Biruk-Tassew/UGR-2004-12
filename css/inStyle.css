@@ -1,6 +1,3 @@
-.wrapper__main {
-    display: grid;
-}
 .wrapper__main .wrapper__section{
     margin: 0 0 0 10%;
     width: 33%;
@@ -17,8 +14,17 @@
 .wrapper__introduction{
     margin-top: 2%;
 }
+.wrapper__main{
+    display: flex;
+}
+.wrapper__section{
+    width:70%;
+}
 .wrapper__figure{
-    margin-left: 20%;
+    width: 50%;
+    height: 35%;
+    padding-left: 15%;
+    margin-top: -3%;
 }
 #home:after{
     content: '';
@@ -58,131 +64,37 @@
 .wrapper__socialMedia {
     padding-top: 3%;
 }
-@media (max-width: 1300px) and (min-width: 850px) {
-    .wrapper__header {
-        height: 8.7vw;
-    }
-    .wrapper__socialMedia{
+
+
+@media (max-width: 720px){
+    .wrapper{
         display: flex;
-        padding-left: 51vw;
-        padding-top: 3vw;
-    }
-    .wrapper__section{
-        width: 70vw;
-        margin-right: -7vw;
-    }
-    
-}
-@media (max-width: 850px) and (min-width: 500px) {
-    .wrapper__main{
-        width: 100%;
-        margin-top: 10%;
-    }
-
-    .wrapper__article {
-        padding-top: 20%;
-        width: 190%;
-        margin-right: 30%;
-    }
-
-    .wrapper__link{
-        margin-left: 40%;
-    }
-
-    .wrapper__header {
-        height: 10.6vw;
-    }
-
-    
-    .wrapper__list{
-        padding-left: 12vw;
-    }
-
-    .wrapper__socialMedia{
-        display: flex;
-        padding-left: 210%;
-        padding-top: 8%;
-    }
-}
-
-@media (max-width: 400px) {
-    .wrapper__header {
-        height: 22vw;
-    }
-    #check:checked ~ ul{
-        display: inline;
-        position: absolute;
-        left: 20vw;
     }
     .wrapper__main {
-        display: flex;
-        flex-direction: column;
-        margin-top: 20%;
+        flex-direction: column-reverse;
+        overflow: visible;
+        margin-bottom: 40vh;
     }
-
-    .wrapper__article{
-        margin-top: 120vw;
-        width: 90%;
+    .wrapper__image{
+        width: 30vh;
+        height: 33vh;
+        margin-top: -20vh;
+        margin-left: 10%;
     }
     .wrapper__paragraph--main{
         width: 80vw;
-        margin-bottom: 15vw;
     }
-    
-    .wrapper__link{
-        margin-left: -20%;
-        margin-top: 5%;
-    }
+    .wrapper__introduction{
+        width: 80vw;
 
-    .wrapper__figure{
-        width: 50%;
-        height: 20%;
+    }
+    .wrapper__footer{
         position: absolute;
-        top: 15%;
-        left: 1.5%;
+        bottom: -30vh;
     }
-
-
-    .wrapper__socialMedia{
-        width: 40%;
-        padding-left: 33%;
-        padding-top: 6%;
+    .wrapper__image--header{
+        position: absolute;
+        left: 1%;
     }
-   
 }
 
-@media (max-width: 500px) and (min-width: 400px) {
-    .wrapper__header {
-        height: 19.4vw;
-    }
-    .wrapper__paragraph--main{
-        width: 10%;
-        margin-top: 100rem;
-        margin-bottom: 15vw;
-    }
-    .wrapper__main {
-        display: flex;
-        flex-direction: column;
-    }
-    .wrapper__article {
-        margin-top: 110vw;
-        width: 90%;
-    }
-   
-    .wrapper__figure{
-        width: 80%;
-        height: 43%;
-        position: absolute;
-        top: 15%;
-        left: 2%;
-    }
-    .wrapper__link{
-        margin-left: -20%;
-        margin-top: 5%;
-    }
-    .wrapper__socialMedia{
-        width: 40%;
-        padding-left: 33%;
-        padding-top: 6%;
-    }
-}

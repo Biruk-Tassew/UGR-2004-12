@@ -64,16 +64,12 @@ body{
         margin-left: 10vw;
         width: 80vw;
     }
-    .wrapper__header{
-        height: 21vw;
-    }
+    
 }
 @media (min-width: 500px) and (max-width: 1300px){
     .wrapper__main{
         margin-top: 10vw;
     }
-    .wrapper__header{
-        height: 7vw;
-    }
+    
 }
-}
+

@@ -136,12 +136,7 @@ input[name="pr"]{
     .wrapper__slides{
         margin-top: -30vw;
     } 
-    .wrapper__header{
-        position: absolute;
-        top: 0;
-        height: 23vw;
-        position: fixed;
-    }
+    
     body{
         margin-top: 50vw;
     }

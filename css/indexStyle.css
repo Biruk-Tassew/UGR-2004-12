@@ -17,23 +17,14 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
-.wrapper{
-    display:grid;
-    height: 100%;
-}
+
 .wrapper__main{
     min-height: 70vh;
     margin-top: 20%;
     overflow: auto;
 }
-.wrapper__section{
-    width:50%;
-}
-.wrapper__figure{
-    position: absolute;
-    left: 35vw;
-    top: 10vw;
-}
+
+
 .wrapper__header{
     width: 100%;
     height: 15vh;
@@ -72,15 +63,7 @@ body{
     text-transform: uppercase;
 }
 
-.wrapper__main .wrapper__section{
-    margin-top: 5vw;
-    margin-left: 3vw;
-    margin-bottom: 0;
 
-}
-.wrapper__main .wrapper__article{
-    margin-bottom: -4.3vw;
-}
 .wrapper__image--header{
     border-radius: 90%;
     margin-top: 1%;
@@ -152,7 +135,7 @@ label #btn{
 #check{
     display: none;
 }
-@media (max-width: 800px){
+@media (max-width: 850px){
     label #btn{
         display: block;
         cursor: pointer;

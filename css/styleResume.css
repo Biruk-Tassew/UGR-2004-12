@@ -202,9 +202,6 @@
 
 @media (max-width: 600px){
     
-    .wrapper__header{
-        height: 21vw;
-    }
     .wrapper__article--main{
         width: 130vw;
         margin-left: 9%;
@@ -283,9 +280,6 @@
     }
 }
 @media (max-width: 1000px) and (min-width: 850px){
-    .wrapper__header{
-        height: 8.8vw;
-    }
     .wrapper__article--main .wrapper__title{
         padding-right: 40vw;
     }
