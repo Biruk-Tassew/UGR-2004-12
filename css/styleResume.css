@@ -8,6 +8,9 @@
     margin:0;
     padding:0;
 }
+.wrapper__footer{
+    margin-top: 5vh;
+}
 .wrapper__downloadButton{
     position: relative;
     cursor: pointer;
@@ -31,14 +34,15 @@
     width: 13%;
     left: 17.2%;
     transition: 0.3s;
-    bottom: 30px;
+    bottom: 28.5px;
+
 }
 .wrapper__downloadButton .wrapper__link{
     color: white;
 }
 .wrapper__main{
     margin-top: 10%;
-    overflow-x: hidden;
+    overflow:visible;
 }
 .wrapper__article--main .wrapper__title{
     text-align:center;
@@ -51,10 +55,19 @@
 .wrapper__skills .wrapper__titleTwo{
     padding-bottom: 1.5%;
 }
-
+.wrapper__row--three .wrapper__webExp{
+    width: 27vw;
+    margin-left: 2vw;
+}
 .wrapper__main .wrapper__article .wrapper__text{
+    padding-top: 2%;
     padding-bottom: 2%;
     width:60%;
+    text-align: justify;
+}
+.wrapper__titleThree{
+    padding-top: 10%;
+    padding-left: 4%;
 }
 .wrapper__skills{
     width:50%;
@@ -67,7 +80,7 @@
     text-align: center;
 }
 .wrapper__c2Def{
-    padding-left: 5px;
+    padding-left: 60px;
 }
 
 .wrapper__line{
@@ -76,7 +89,7 @@
     margin: 2% auto 5% 5%;
     line-height: 20%;
     font-size: 0.9rem;
-    color:rgb(61, 60, 60);
+    color:rgb(250, 249, 249);
     padding: 1.5% 0 0 14%;
     position: relative;
 }
@@ -127,11 +140,16 @@
         width:100%;
     }
 }
-.wrapper__Mexperiance .wrapper__titleTwo{
-    padding-left: 50vw;
-}
+
 .wrapper__Mexperiance .wrapper__textTwo{
     padding: 5% 0 0 42%; 
+}
+/* h2{
+    margin-left: 43vw;
+  
+} */
+.wrapper__titleTwo--exp{
+    margin-left: -50vw;
 }
 .wrapper__experiance{
     padding-left: 13%;
@@ -140,14 +158,16 @@
     width: 70em;
     height: 20em;
     padding-left: 5px;
+    margin-bottom: 5vw;
 }
+
 .wrapper__webExp{
     box-shadow: 10px 10px var(--shadowColor);
     margin-right: 15%;
     align-items: center;
-    border-radius: 10%;
-    padding-right: 10px;
-
+    border-radius: 10% 15% 10% 10%;
+    width: 50vw;
+    height: 22vw;
 }
 .wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__text{
     width: 20em;
@@ -157,11 +177,10 @@
 
 .wrapper__experiance .wrapper__row .wrapper__webExp .wrapper__section{
     background-color: rgb(179, 200, 219);
-    width: 97.5%;
-    height: 15%;
+    width: 98%;
+    height: 30%;
     border-radius: 40% 40% 0 0;
-    padding: 10% 0 0 5%;
-
+    margin: 0 0 0 2%;
 }
 
 .wrapper__experiance .wrapper__row--two{
@@ -241,10 +260,7 @@
     .wrapper__row--one{
         margin-bottom: 70vw;
     }
-    .wrapper__footer{
-        height: 20vw;
-        margin-top: 40vw;
-    }
+   
     .wrapper__list{
         height: 80vw;
         padding-left: 13vw;
