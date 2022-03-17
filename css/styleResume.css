@@ -199,12 +199,6 @@
     justify-content: center;
 
 }
-.drop_down{
-    position: absolute;
-    top: 60%;
-    left: 157.5%;
-       
-}
 
 @media (max-width: 600px){
     

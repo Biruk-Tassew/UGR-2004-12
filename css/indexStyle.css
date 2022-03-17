@@ -101,8 +101,8 @@ body{
 }
 .drop_down{
     position: absolute;
-    top: 62%;
-    left: 147.5%; 
+    top: 64%;
+    left: 48%; 
 }
 .drop_down li{
     background-color: var(--primaryColor);
