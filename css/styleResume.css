@@ -14,8 +14,6 @@
 .wrapper__downloadButton{
     position: relative;
     cursor: pointer;
-    font-size: 15px;
-    letter-spacing: 2px;
     float: left;
     width: 150px;
     height: 50px;
@@ -37,8 +35,11 @@
     bottom: 28.5px;
 
 }
-.wrapper__downloadButton .wrapper__link{
+#download__link{
     color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
 }
 .wrapper__main{
     margin-top: 10%;
@@ -132,6 +133,9 @@
 .wrapper__line--l5:after{
     max-width: 80%;
 }
+.wrapper__socialMedia{
+    margin-top: 2.3%;
+}
 @keyframes animate2{
     0%{
         width:0;
@@ -144,12 +148,12 @@
 .wrapper__Mexperiance .wrapper__textTwo{
     padding: 5% 0 0 42%; 
 }
-/* h2{
+.wrapper__titleTwo--exp{
     margin-left: 43vw;
   
-} */
-.wrapper__titleTwo--exp{
-    margin-left: -50vw;
+} 
+#wrapper__titleTwo--exp{
+    text-align: center;
 }
 .wrapper__experiance{
     padding-left: 13%;
