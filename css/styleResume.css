@@ -182,9 +182,7 @@
     left: 157.5%;
        
 }
-.wrapper__footer{
-    padding-top: 1%;
-}
+
 @media (max-width: 600px){
     
     .wrapper__header{

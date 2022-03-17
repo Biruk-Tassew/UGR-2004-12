@@ -6,11 +6,7 @@ body{
     background-image: url("../images/background/wave-bg.svg");
     background-position-y: 5.03em;
 }
-.wrapper__main{
-    width: 80%;
-    height: 0;
-    overflow: hidden;
-}
+
 .wrapper__main--mainInner{
     position: absolute;
     top: 45%;

@@ -3,11 +3,19 @@
 }
 .wrapper__main .wrapper__section{
     margin: 0 0 0 10%;
+    width: 33%;
+    height: 20vw;
 }
 .wrapper__greeting{
     font-family: 'Libre Baskerville', serif;
     font-size: 35px;
     margin-bottom: 0;
+}
+.wrapper__paragraph--main{
+    margin-top: 2%;
+}
+.wrapper__introduction{
+    margin-top: 2%;
 }
 .wrapper__figure{
     margin-left: 20%;
@@ -20,11 +28,25 @@
     width: 9.3%;
     left: 2.5%;
     transition: 0.3s;
-    bottom: 30px;
+    bottom: 28.5px;
 }
-.wrapper__footer {
-    height: 80px;
+.wrapper__button{
+    position: relative;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: var(--btnColor);
+    top: 8vw;
+    left: 50%;
+    color: white;
+    text-decoration: none;
 }
+
 .wrapper__image{
     margin-top: -15%;
     padding-top: 20%;
@@ -71,10 +93,7 @@
         height: 10.6vw;
     }
 
-    .wrapper__footer {
-        position: absolute;
-        bottom: 0;
-    }
+    
     .wrapper__list{
         padding-left: 12vw;
     }
@@ -109,9 +128,7 @@
         width: 80vw;
         margin-bottom: 15vw;
     }
-    .wrapper__introduction{
-        width: 80vw;
-    }
+    
     .wrapper__link{
         margin-left: -20%;
         margin-top: 5%;
@@ -131,9 +148,7 @@
         padding-left: 33%;
         padding-top: 6%;
     }
-    .wrapper__footer{
-        margin-top: 26vw;
-    }
+   
 }
 
 @media (max-width: 500px) and (min-width: 400px) {
@@ -141,7 +156,8 @@
         height: 19.4vw;
     }
     .wrapper__paragraph--main{
-        width: 80vw;
+        width: 10%;
+        margin-top: 100rem;
         margin-bottom: 15vw;
     }
     .wrapper__main {
@@ -152,9 +168,7 @@
         margin-top: 110vw;
         width: 90%;
     }
-    .wrapper__introduction{
-        width: 80vw;
-    }
+   
     .wrapper__figure{
         width: 80%;
         height: 43%;
