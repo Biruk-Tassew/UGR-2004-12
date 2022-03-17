@@ -10,9 +10,7 @@
     width: 95%;
     padding:10px;
 }
-.wrapper__main{
-    margin-top: 6%;
-}
+
 .wrapper__title{
     text-align:center;
     color:rgb(147, 141, 194);
@@ -28,12 +26,6 @@
     left: 74%;
     transition: 0.3s;
     bottom: 30px;
-}
-.wrapper__list--second{
-    position: absolute;
-    top: 60%;
-    left: 157.5%;
-       
 }
 .wrapper__contactBord{
     margin-left: 1%;
@@ -101,7 +93,15 @@
     width: 110%;
     padding-top: 10%;
 }
-
+.wrapper__main{
+    margin-top: 10vw;
+}
+.wrapper__footer{
+    align-items: center;
+}
+.wrapper__copyRight{
+    margin-top: -5%;
+}
 @media (max-width: 450px){
     .wrapper__mainBord{
         display: flex;
